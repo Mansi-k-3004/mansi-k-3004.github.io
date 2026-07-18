@@ -391,8 +391,6 @@ nav ul li a:hover{
 
 .hero{
 
-    min-height:50vh;
-
     display:flex;
 
     justify-content:space-between;
