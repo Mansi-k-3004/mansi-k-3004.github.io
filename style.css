@@ -314,7 +314,8 @@ text-shadow:
 .bg1{
     width:350px;
     height:350px;
-    background:#D9A5A5;
+    background:#e0c3c3;
+    filter:blur(40px);
     top:-100px;
     left:-80px;
     animation:float 18s ease-in-out infinite;
@@ -324,7 +325,8 @@ text-shadow:
     width:400px;
     height:400px;
     bottom:-100px;
-    background:#ae696a;
+    background:#cda4a4;
+     filter:blur(80px);
     right:-80px;
     animation:float 25s ease-in-out infinite reverse;
 
@@ -468,7 +470,7 @@ nav ul li a:hover{
 
 .btn:hover{
 
-    background:#920823;
+    background:#8d1931;
 
 }
 
@@ -629,7 +631,7 @@ section{
 
     background:rgba(255,255,255,.08);
 
-    backdrop-filter:blur(20px);
+    backdrop-filter:blur(70px);
 
     border-radius:20px;
 
@@ -736,7 +738,7 @@ section{
 
     padding:25px;
 
-    background:rgba(135, 100, 100, 0.516);
+    background:rgba(162, 112, 112, 0.516);
 
     border-radius:15px;
 
@@ -751,7 +753,7 @@ section{
 
     transform:scale(1.05);
 
-    background:#812e48;
+    background:#b9798d;
     color:#fff;
 
 }
@@ -763,14 +765,14 @@ a{
 
 #contact a,
 .achievement a{
-    color:#a42d50;
+    color:#904c61;
     text-decoration:none;
     transition:.3s;
 }
 
 #contact a:hover,
 .achievement a:hover{
-    color:#fb3f62;
+    color:#df8694;
 }
 
 .achievement:hover a,
@@ -790,7 +792,7 @@ a{
 
 #contact i{
 
-    color:#a42d50;
+    color:#ce5a7d;
 
     margin-right:10px;
 
@@ -806,7 +808,7 @@ footer{
 
     border-top:1px solid rgba(255,255,255,.1);
 
-    color:#872c65;
+    color:#472933;
 
 }
 
@@ -870,7 +872,7 @@ display:none;
 /* Active Navbar */
 
 nav ul li a.active{
-    color:#983551;
+    color:#b6667d;
     font-weight:600;
 }
 
@@ -892,11 +894,21 @@ footer{
 }
 
 .btn:hover{
-    background:#920823;
+    background:#875a63;
     color:#fff;
 }
 
 .btn-outline:hover{
-    background:#b0536d;
+    background:#a4697a;
     color:#fff;
+}
+
+.certificate a{
+    color:#8b4459;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.cert-grid{
+    grid-template-columns:repeat(4,1fr);
 }
