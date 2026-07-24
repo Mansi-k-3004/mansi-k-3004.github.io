@@ -288,11 +288,6 @@ text-shadow:
 
 }
 
-/* filter removed from body — it was breaking position:fixed for
-   descendant elements (like .crt::before and body::before), which
-   caused the extra scroll space at the bottom of the page. */
-
-/* Animated Background */
 
 @keyframes gradient{
 
@@ -452,9 +447,9 @@ nav ul li a:hover{
 
     text-decoration:none;
 
-    background:#d1a09a;
+    background:#bf8d86;
 
-    color:rgb(168, 127, 127);
+    color:rgb(83, 62, 62);
 
     padding:14px 30px;
 
