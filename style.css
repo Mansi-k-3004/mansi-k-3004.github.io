@@ -842,11 +842,6 @@ padding:15px;
 
 }
 
-nav ul{
-
-display:none;
-
-}
 }
 
 /* Scroll Animation */
@@ -904,4 +899,34 @@ footer{
 
 .cert-grid{
     grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+}
+
+
+.hamburger{
+    display:none;
+    font-size:24px;
+    cursor:pointer;
+    color:#e8ceca;
+}
+
+@media(max-width:900px){
+    .hamburger{
+        display:block;
+    }
+
+    nav ul{
+        display:none;
+        flex-direction:column;
+        position:absolute;
+        top:100%;
+        left:0;
+        width:100%;
+        background:rgba(226, 211, 207,.9);
+        padding:20px;
+        text-align:center;
+    }
+
+    nav ul.show-menu{
+        display:flex;
+    }
 }

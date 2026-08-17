@@ -163,3 +163,9 @@ cards.forEach(card => {
     });
 
 });
+
+document.querySelectorAll('nav ul li a').forEach(link => {
+    link.addEventListener('click', () => {
+        document.querySelector('nav ul').classList.remove('show-menu');
+    });
+});
